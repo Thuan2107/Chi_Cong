@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Lớp học</title>
+    <style>
+        *{
+            font-family: 'Nunito', sans-serif;
+            padding: 0px;
+            margin: 0px;
+            font-size: 16px;
+            box-sizing: border-box;   
+        }
+        body{
+           
+            background-image: url(./img/bg-rp.png);
+            background-size: 1500px;
+            
+        }
+        #title{
+            text-align: center;
+            margin: 40px 0;
+            font-size: 50px;
+            font-weight: 900;
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            background-image: url(./img/bg3.png);
+        }
+        
+        .row{
+             margin: auto;
+             display: flex;
+             justify-content: space-evenly;
+        }
+        .col {
+            display: block;
+            width: 320px;
+            height: 120px;
+            border-radius: 8px;
+            margin-bottom: 40px;
+            
+        }
+        .col-sm-12 #title, .col-md-6 #title{
+            text-align: justify;
+        }
+        .name{
+            font-weight: 900;
+            padding-top: 8px;
+            color: #ffffff ;
+        }
+        a{ 
+            width: 320px;
+            height: 120px;
+            color: #ffffff;
+            display: block;
+            text-decoration: none;
+            border-radius: 8px;
+            padding-left: 8px ;
+            padding-top: 8px;
+        }
+        a:hover {
+            color: #f1f2f6;
+            text-decoration: none;
+            background-color: #4a69bd;
+            
+        }
+        #item1{
+            background-image: url(./img/to4.png);
+            
+            opacity: 0.9;
+        }
+        #item1:hover{
+            opacity: 1;
+            border: 3px solid #17c0eb;
+            box-shadow: 4px 4px 16px#bdc3c7;
+        }
+        #item2{
+            background-image: url(./img/to6.jfif);
+            background-size: 100%;
+            color: black;
+            opacity: 0.9;
+        }
+        #item2:hover {
+            opacity: 1;
+            border: 3px solid #17c0eb;
+            box-shadow: 4px 4px 16px#bdc3c7;
+        }
+        #item3{
+            background-image: url(./img/rp6.jfif);
+            color: black;
+            opacity: 0.9;
+        }
+        #item3:hover {
+            opacity: 1;
+            border: 3px solid #17c0eb;
+            box-shadow: 4px 4px 16px#bdc3c7;
+        }
+        #item4{
+            background-image: url(./img/to8.jfif);
+            color: black;
+            opacity: 0.9;
+        }
+        #item4:hover {
+            opacity: 1;
+            border: 3px solid #17c0eb;
+            box-shadow: 4px 4px 16px#bdc3c7;
+        }
+        #item5{
+            background-image: url(./img/to10.jfif);
+            background-size: 100%;
+            color: black;
+            opacity: 0.9;
+        }
+        #item5:hover {
+            opacity: 1;
+            border: 3px solid #17c0eb;
+            box-shadow: 4px 4px 16px#bdc3c7;
+        }
+        #item6{
+            background-image: url(./img/to12.jfif);
+            background-size: 100%;
+            color: black;
+            opacity: 0.9;
+        }
+        #item6:hover {
+            opacity: 1;
+            border: 3px solid #17c0eb;
+            box-shadow: 4px 4px 16px#bdc3c7;
+        }
+        #item7{
+            background-image: url(./img/rp1.jfif);
+            background-size: 100%;
+            color: black;
+            opacity: 0.9;
+        }
+        #item7:hover {
+            opacity: 1;
+            border: 3px solid #17c0eb;
+            box-shadow: 4px 4px 16px#bdc3c7;
+        }
+        #item8{
+            background-image: url(./img/rp2.jfif);
+            background-size: 100%;
+            color: black;
+            opacity: 0.9;
+        }
+        #item8:hover {
+            opacity: 1;
+            border: 3px solid #17c0eb;
+            box-shadow: 4px 4px 16px#bdc3c7;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container-fluid" >
+        <!--<p id="title">DANH SÁCH LỚP HỌC TRỰC TUYẾN <br>TRƯỜNG TIỂU HỌC NHA MÂN I</p>
+        <div class="row">
+            <div class="col col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                <a href="https://meet.google.com/jrv-qhrk-kfi" id="item1">
+                    <p class="name">Lớp: 5/1</p>
+                    <p class="name">Giáo viên: Ngô Thị Ngân Loan</p>
+                </a>
+            </div>
+            <div class="col col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                <a href="https://meet.google.com/rqo-wkfr-txt" id="item2">
+                    <p class="name">Lớp: 5/2</p>
+                    <p class="name">Giáo viên: Lê Thị Bích Vân</p>
+                </a>
+            </div>
+            <div class="col col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                <a href="https://meet.google.com/xaf-kgvd-hoz" id="item3">
+                    <p class="name">Lớp: 5/3</p>
+                    <p class="name">Giáo viên: Lê Thanh Hằng</p>
+                </a>
+            </div>
+            <div class="col col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                <a href="https://meet.google.com/qbq-miyv-row" id="item4">
+                    <p class="name">Lớp: 5/4</p>
+                    <p class="name">Giáo viên: Nguyễn Du Xuân</p>
+                </a>
+            </div>
+            <div class="col col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                <a href="https://meet.google.com/ptk-qecj-dkd" id="item5"> 
+                    <p class="name">Lớp: 5/5</p>
+                    <p class="name">Giáo viên: Thái Thị Kim Sa</p>
+                </a>
+            </div>
+            
+            <div class="col col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                <a href="https://www.youtube.com/watch?v=y8xWi59HP9M" id="item6">
+                    <p class="name">Lớp: 5/1</p>
+                    <p class="name">Giáo viên: Nguyễn Thị Phương Thúy</p>
+                </a>
+            </div>
+            <div class="col col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                <a href="https://www.youtube.com/watch?v=y8xWi59HP9M" id="item7">
+                    <p class="name">Lớp: 5/1</p>
+                    <p class="name">Giáo viên: Nguyễn Thị Phương Thúy</p>
+                </a>
+            </div>   -->
+            <div class="col col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                <a href="https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fl%2Fmeetup-join%2F19%3Al5rEFj8f-lurjQc3HU4yhNXjlMLmCiNBCsso9WND2us1%40thread.tacv2%2F1633523722980%3Fcontext%3D%257b%2522Tid%2522%253a%2522514603cd-0f93-4af4-9fc3-b069e9ae346f%2522%252c%2522Oid%2522%253a%2522d7fb7c27-9e9a-48c2-a2ea-bb5fd294cf11%2522%257d%26anon%3Dtrue&type=meetup-join&deeplinkId=f508b494-6a43-4939-b62d-694b468f2803&directDl=true&msLaunch=true&enableMobilePage=true&suppressPrompt=true" id="item8">
+                    <p class="name">Môn Toán</p>
+                    <p class="name">Giáo viên: Nguyễn Thị Phương Thúy</p>
+                </a>
+            </div>   
+                 
+        </div>
+    </div>
+</body>
+</html>
