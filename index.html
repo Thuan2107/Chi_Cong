@@ -20,19 +20,23 @@
         }
         body{
            
-            background-image: url(./img/bg-rp.png);
-            background-size: 1500px;
+            background-image: url(./img/bg-1.png);          
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            top: 0;
             
         }
-        #title{
-            text-align: center;
-            margin: 40px 0;
-            font-size: 50px;
+        .header {
+            text-align: center;  
+            color: white;
+            background-color: rgba(0, 0, 0, 0.2);
+        }
+        #title {
+            font-size: 40px;
             font-weight: 900;
-            background-clip: text;
-            -webkit-background-clip: text;
-            color: transparent;
-            background-image: url(./img/bg3.png);
         }
         
         .row{
@@ -160,9 +164,11 @@
     </style>
 </head>
 <body>
-    
-    <div class="container-fluid" >
+    <div class="header">
         <p id="title">LỚP HỌC TRỰC TUYẾN CỦA<br>NGUYỄN CHÍ CÔNG</p>
+    </div>
+    <div class="container-fluid" >
+       
         <div class="row">
             <div class="col col-xl-3 col-lg-6 col-md-6 col-sm-12">
                 <a href="https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fl%2Fmeetup-join%2F19%3Ameeting_YjZlYzU2ODgtYzY1Yi00MDFmLWI0MWQtNGJkNTJiMTMwNDY2%40thread.v2%2F0%3Fcontext%3D%257b%2522Tid%2522%253a%2522514603cd-0f93-4af4-9fc3-b069e9ae346f%2522%252c%2522Oid%2522%253a%25229aa0438f-c69f-4ce1-859b-eb16cf195d95%2522%257d%26anon%3Dtrue&type=meetup-join&deeplinkId=0b58624a-5a22-4208-a31c-f63ce179e4b1&directDl=true&msLaunch=true&enableMobilePage=true&suppressPrompt=true" id="item1">
